@@ -1,0 +1,271 @@
+Naam stof,Locatie,"Fase (l,s,g)",Geschatte hoeveelheid,Eenheid,Concentratie/zuiverheid,GHS-symbolen,Commerciele verpakking,Zelfgemaakt,Interne code,Leverancier,Lotnummer,CMR,Alternatief,Opmerkingen
+Aluminiumchloride hexahydraat,Plank A,s,250 g,1.0,,-,False,False,,,,False,,
+4-Aminophenol,Plank A,s,0 g,1.0,,)(.,True,False,,Sigma-Aldrich,S8003021201,False,,Fles is leeg
+2-Amino-2-methyl-1-propanol,Plank A,s,250 g,1.0,,(,True,False,D-A001,Merck,S7025665525,False,,
+Acetanilide,Plank A,s,300 g,2.0,0.98,(,True,False,IA003-0519,Merck,S7689044850,False,,
+Ammonium persulfate,Plank A,s,150g,1.0,0.98,()=,True,False,,Sigma-Aldrich,BCBL6887V,False,,
+Ammoniumacetat krist. Reinst,Plank A,s,500g,1.0,,(,True,False,"D-A011, IA036",Merck,,False,,
+Mac Conkey agar,Plank A,s,350g,1.0,,,True,False,IM080,VWR Chemicals,G0190W,False,,Eigenlijk geen chemical
+Acetylsalicylic acid,Plank A,s,350g,1.0,"≤99,0%",(,True,False,,Sigma-Aldrich,SLBZ0047,False,,Geopend: 03 Feb 2021
+Müller Hinton Agar,Plank A,s,300g,1.0,,,True,False,D-A016,Fluka analytical,BCBM2746V,False,,Eigenlijk geen chemical
+Acetaminophen,Plank A,s,250g,1.0,"≥99,0%",(,True,False,,Sigma-Aldrich,SLCF8273,False,,
+Ammoniumijzer(II)Sulfaat Hexahydraat,Plank A,s,150g,1.0,,(,False,False,D-A020,,,False,,
+Ammoniumchloride,Plank A,s,100g,1.0,,(,False,False,1A039,,,False,,
+di-Ammoniumhydrogenphosphat,Plank A,s,400g,1.0,0.99,(,True,False,D-A013,Merck,,False,,
+4-aminobutyric acid,Plank A,s,100g,1.0,"≥98,0%",(,True,False,D-A003,Fluka analytical,,False,,GHS symbool staat niet op verpakking (vervangen)
+Alizarin,Plank A,s,50g,1.0,0.97,(,False,False,,,,False,,
+L(+)-Ascorbinezuur,Plank A,s,50g,1.0,,(,True,False,D-A014,Boom,,False,,GHS symbool staat niet op verpakking (vervangen)
+L(+)-Ascorbinezuur,Plank A,s,70g,1.0,,(,True,False,TI118,Normapur,,False,,GHS symbool staat niet op verpakking (vervangen)
+Acridine orange hemi(zinc chloride),Plank A,S,10g,1.0,,(\,True,False,D-A004,Sigma-Aldrich,A6014-10G,False,,
+Anthracene,Plank A,s,100g,1.0,,.,True,False,,Sigma-Aldrich,S7746309022,False,,
+Agarose,Plank A,s,3g,1.0,,,True,False,D-A007,Merck,K44503602 324,False,,
+aluminiumoxide,Plank A,s,5g,1.0,,,False,False,D-A009,,,False,,
+4-aminoantipyrine,Plank A,s,2g,1.0,,(,True,False,D-A002,Sigma-Aldrich,A4382-10G,False,,
+Aceto-Orceine,Plank A,l,10ml,1.0,,>-,False,False,,,,False,,Druppelflesje. 1-0-012 met stift op geschreven
+Ammoniumijzersulfaat,Plank A,s,,1.0,,(,False,False,D-A018,,,False,,Fles is leeg
+Broomthymolblauw,Plank A,l,30ml,1.0,,,False,False,,,,False,,Druppelflesje.
+Boric Acid,CMR Bak,s,400g,1.0,0.995,),True,False,IB031,Merck,AM0933465 726,True,,
+Boric Anhydride,CMR Bak,s,300g,1.0,≥98%,),True,False,,Sigma-Aldrich,BCBZ8421,True,,
+Benzyltriethylammoniumchlorid,Plank B,s,80g,1.0,0.99,(,True,False,D-B002,Sigma-Aldrich,33186-010,False,,
+Benzoezuur,Plank B,s,10g,1.0,,)-,False,False,1B015,,,False,,
+Borax (dinatriumtetraboraat decahydraat),CMR Bak,s,100g,1.0,,),False,False,,,,True,,dinatriumtetraboraat decahydraat verpakking vermeld niets anders dan borax.
+"Bipyridine 2,2",Plank B,s,2g,1.0,,\),False,False,D-B009,,,False,,
+Benzoezuur,Plank B,s,150g,1.0,,(,False,False,D-B001,,,False,,
+Bariumchloride dihydraat,Plank B,s,5g,1.0,,\,False,False,D-B011,,,False,,
+LE Agarose,Plank A,s,>1g,1.0,,,True,False,D-A008,Cleaver,14160521,False,,Stond op plank b
+Bromocresol green,Plank B,s,5g,1.0,,,True,False,IB041,Baker analyzed,,False,,Staat 'Afgeboekt' op potje.
+tert-Butyl peroxybenzoate (luperox),Plank B,l,3 ml,1.0,0.98,(.>,True,False,D-B008,Sigma-Aldrich,MKCC0112,False,,
+Bromophenol blue,Plank B,s,25g,1.0,,,True,False,D-B007,Baker analyzed,E1174,False,,
+Hämatologie buffertabletten,Plank B,s,100g,2.0,,,True,False,D-B010,Boom,TP337968,False,,
+Blue Dextran 2000,Plank B,s,10g,1.0,,,True,False,D-B004,Pharmacia,ME 01676,False,,
+Cellulose,Plank C,s,200g,1.0,,,True,False,D-C005,Baker analyzed,,False,,
+Calciumsulfaat gefällt (dihydraat),Plank C,s,20g,1.0,,,True,False,IC-018,Merck,,False,,
+"GPR RECTAPUR (Carboxymethylcellulose, sodium salt)",Plank C,s,500g,1.0,,,True,False,IC022,VWR Chemicals,,False,,
+Calcium hydroxide,Plank C,s,100g,1.0,0.96,-,True,False,D-C003,Merck,K43404747228,False,,
+Citric acid,Plank C,s,300g,1.0,0.99,(,False,False,,,,False,,GHS symbool staat niet op verpakking(vervangen)
+Carboxymethylcellulose,Plank C,s,300g,1.0,0.99,,True,False,D-C004,BDH Chemicals Ltd,,False,,
+Cafeïne,Plank C,s,150g,1.0,,(,False,False,,,,False,,GHS symbool staat niet op verpakking (vervangen)
+Calciumcarbonaat,Plank C,s,150g,1.0,,,False,False,1-C-007,,,False,,
+Cobalt(II)chloride hexahydraat,Plank C,s,20g,1.0,0.252,.)(,True,False,,Sigma-Aldrich,BCCF1377,False,,
+CM-Cellulose,Plank C ,s,1g,2.0,,,True,False,D-C009,Sigma-Aldrich,,False,,
+Calciumchloride-dihydraat,plank C,s,100g,1.0,,(,False,False,,,,False,,dihydrate staat slordig op het etiket er bij geschreven.
+"L(-)Lactic acid, lithium salt",Plank C,s,20g,1.0,0.99,,True,False,D-M010,Acros organics,A007962101,False,,
+citroenzuur,Plank C,s,30g,1.0,,(,False,False,D-C007,,,False,,GHS symbool staat niet op verpakking (vervangen)
+Calcium chloride (CaCl2),Plank C,l,10ml,1.0,,(,True,False,,Siemens,539775A,False,,GHS symbool staat niet op verpakking (vervangen)
+Chloorhexidine (in alcohol),Plank C,l,30ml,1.0,0.005,.-,True,False,D-C006,Quickk,,False,,In 70% alcohol. GHS symbolen staan niet op de verpakking (aangepast)
+citroenzuur p.a.,Plank C,s,40g,1.0,,(-,False,False,D-C008,,,False,,
+"1, 6-diaminohexaan",Plank D/E,s,50g,1.0,≥99%,(-,True,False,,Fluka analytical,RA14541,False,,
+"Dextrose, druivensuiker",Plank D/E,s,500g,1.0,,,False,False,A07 A004,,,False,,
+diethylbarbituurzuur,Plank D/E,s,40g,1.0,,(,False,False,ID014,,,False,,
+"5, 5-diphenylhydantoin (Fenytoïne)",CMR Bak,s,25g,1.0,0.99,(),True,False,,Thermo scientific,10244429,True,,
+Dibutyl phthalate (DBP),CMR Bak,l,30ml,1.0,0.99,).,True,False,,Sigma-Aldrich,MKBW8599V,True,,
+"3, 4-dihydroxy-L-phenylalanine",Plank D/E,s,5g,1.0,0.98,(,True,False,,Sigma-Aldrich,SLBR0479V,False,,
+2-deoxy-d-ribose,Plank D/E,s,1g,1.0,0.97,,True,False,,Sigma-Aldrich,066K3461V,False,,
+Dicyclohexyl phthalate,CMR Bak,s,5g,1.0,0.99,()-,True,False,,Sigma-Aldrich,MKBB1696V,True,,
+Phthalic anhydride,Plank F,s,1000g,1.0,0.99,)(-,True,False,D-F005,Sigma-Aldrich,BCBL6010V,False,,
+Fenolftaleïne,CMR Bak,l,300ml,1.0,,),True,False,1-F-005,Merck,,True,,Stond in de kast op plank F - verplaatst naar de plofkast
+Formaldehyde-sodium bisulfite adduct,CMR Bak,s,100g,1.0,0.95,()-\,True,False,,Sigma-Aldrich,MKCK9389,True,,
+Ficoll PM 400,Plank F,s,5g,1.0,,,True,False,D-F003,Sigma-Aldrich,016K0013,False,,
+Ficoll-paque Plus,Plank F,l,100ml,4.0,,,True,False,,GE Healthcare,,False,,
+Fenolrood,Plank F,l,100ml,2.0,,,True,False,1F006,Merck,,False,,
+Phenolphthalein solution (fenolftaleïne),CMR Bak,l,100ml,1.0,0.005,(>,True,False,D-F001,Sigma-Aldrich,STBJ5862,True,,Stond in de kast op plank F - verplaatst naar de plofkast
+Fluoresceine,Plank F,s,5g,1.0,,,False,False,1F060,,,False,,
+Fructose,Plank F,s,500g,1.0,,,False,False,A06 F001,,,False,,
+Fenolftaleïne (vaste stof),CMR Bak,s,2g,1.0,,),False,False,,,D-F001,True,,
+Fosforbuffer pH=10 experiment 4,Plank F,l,20ml,1.0,,,False,True,,,,False,,
+Fosfaat gebufferde saline (dulbecco 'A'),Plank F,s,50g,20.0,,,True,False,,Oxoid,61610-006,False,,20 potjes in de kast met elk 100 tabletten.
+Glycerol,Plank G,l,1000ml,1.0,≥99%,,True,False,,Sigma-Aldrich,BCCM8064,False,,
+Gries romijn v Eck reagens (griess reagens),CMR Bak,s,100g,4.0,,().\,False,True,D-G007,,,True,,"Bevat naftylamine, geidentificeerd als CMR. Drie potjes, een gemaakt in 2014"
+Glycerol,Plank G,l,100ml,1.0,86-88%,,True,False,D-G005,Lamers-Pleuger,,False,,staat 1 in koelkast
+Gliadin (from wheat),Plank G,s,10g,1.0,,,True,False,D-G003,Sigma-Aldrich,G3375-25G,False,,
+Gelatine (gold),Plank G,s,1000g,1.0,84-86%,,True,False,D-G001,Roth,,False,,
+d-glucose,Plank G,s,1g,1.0,,,False,False,1G008,,,False,,
+Hexamethylenediamine,Plank H,l,250ml,1.0,0.98,(-,True,False,,Sigma-Aldrich,MKBZ4035V,False,,
+Human application buffer,Plank H,s,13g,1.0,,,True,False,A030,Bio-Rad,,False,,
+Hop capsules,Plank H,s,,1.0,,,True,False,D-H001,Vitotaal,,False,,
+Jood I2,CMR Bak,s,<1g,1.0,,(.),False,False,D-I002,,,True,,
+Ijzer(III)chloride *6H20,Plank I/J,s,100g,1.0,,(-,False,False,1-Y-003,,,False,,
+Ijzer(III)chloride *6H20,Plank I/J,l,30ml,1.0,,(-,False,False,D-I001,,,False,,
+Kaliumhydroxide (pellets),Plank K,s,1000g,1.0,≥85%,(-,True,False,,Sigma-Aldrich,MKCV2997,False,,
+Kalium peroxodisulfaat,Plank K,s,1000g,1.0,0.996,()=,True,False,IK039,VWR Chemicals,UN1492,False,,
+dikaliumwaterstoffosfaat,Plank K,s,500g,1.0,0.99,,True,False,D-K001,VWR Chemicals,17L224108,False,,Expiratiedatum: 2022-Nov-15
+Kaliumdiwaterstoffosfaat,Plank K,s,100g,1.0,,,False,False,,,,False,,Heeft etiket nodig (aangepast)
+Kopersulfaat pentahydraat,Plank K,s,150g,1.0,,(.,False,False,D-K016,,,False,,
+Kalium hexacyanoferrate(II)trihydrate,Plank K,s,200g,2.0,,.,True,False,D-K008,VWR Chemicals,17D034103,False,,Expiratiedatum: 2022 Maart
+Kaliumbromide,Plank K,s,400g,1.0,,(,False,False,1K-005,,,False,,GHS symbool staat niet op verpakking (aangepast)
+Kaliumjodide,Plank K,s,200g,1.0,,),True,False,D-K010,VWR Chemicals,,False,,GHS symbool staat niet op verpakking (aangepast)
+KHFT Kaliumwaterstoftartraat,Plank K,s,30g,1.0,,(),False,False,D-K014,,,False,,
+Kaliumthiocyanaat (KCNS),Plank K,s,20g,1.0,,(,False,False,D-K013,,,False,,GHS symbool staat niet op verpakking (aangepast)
+Kaliumperjodaat,Plank K,s,200g,1.0,,(>)-=,False,False,1K-035,,,False,,Aantal GHS symbolen ontbreken op etiket (aangepast)
+Kaliumhexacyanoferraat(II),Plank K,s,10g,1.0,,,False,False,D-K008,,,False,,
+Kaliumwaterstofftalaat,Plank K,s,200g,2.0,0.99,,False,False,D-K014,,,False,,
+"Kaliumfosfaat, ASC reagent",Plank K,s,300g,1.0,0.99,,True,False,D-K007,Sigma-Aldrich,P0662-1,False,,
+Natriumchloride,Plank K,s,300g,1.0,0.996,,True,False,D-N009,VWR Chemicals,,False,,Verplaatst naar plank S
+"Kaliumdihydrogenphosphat, krist, reinst",Plank K,s,500g,1.0,,,True,False,D-K006,Merck,,False,,
+Koperacetaat monohydraat,Plank K ,s,50g,1.0,,(-.,False,False,D-K017,,,False,,Aantal GHS symbolen ontbreken op etiket (aangepast)
+Loodacetaat trihydraat,CMR Bak,s,10g,1.0,,).,False,False,,,,True,,Stond in de kast op plank K.
+Kaliumhydroxide (KOH),Plank K ,l,4ml,1.0,,(-,False,False,D-K009,,,False,,
+Magnesiumsulfaatheptahydraat,Plank M,s,100g,1.0,,,False,False,D-M007,,,False,,
+"Methylrood, kristallen",Plank M,s,10g,1.0,,.,False,False,D-M004,,,False,,
+"Methyloranje, kristallen",Plank M,s,50g,1.0,0.85,\,True,False,,Sigma-Aldrich,MKCJ2859,False,,
+MES (2-[N-Morpholino]ethanesulfonic acid),Plank M,s,100g,1.0,0.995,(,True,False,D-M011,Sigma-Aldrich,29H54281,False,,
+"Methylrood, voor PkZ bepalingen.",Plank M,s,3g,1.0,,.,False,False,,,,False,,GHS symbool staat niet op verpakking (aangepast)
+Magnesiumnitraat *6H20,Plank M,s,10g,1.0,,=,False,False,1-M-008,,,False,,
+Magnesium chloride anhydride,Plank M,s,50g,1.0,0.98,(,True,False,D-M005,Merck,S5573033 221,False,,
+Magnesiumchloride hexahydraat,Plank M,s,300g,1.0,0.99,,True,False,D-M012,Merck,A0344733 144,False,,
+Mangaan(II)chloride-2-hydraat,Plank M,s,20g,1.0,0.99,)(\-,True,False,D-M008,Boom,2002029654,False,,Aantal GHS symbolen ontbreken op etiket (aangepast)
+1% Murexide verwrijving in KCl,Plank M,s,25g,1.0,,,False,False,,,,False,,GHS?
+Methyleen Blauw,Plank M,s,40g,1.0,,(,False,False,D-M001,,,False,,Vervaldatum: 17-11-98?????
+MacConcey Agar,Plank M,s,500g,1.0,,,True,False,1M080,Oxoid,250820,False,,
+Tetramethylammoniumchloride (TMACI),Plank M,s,500g,1.0,0.98,)\,True,False,D-M013,AppliChem,"A3839,0500",False,,"Extreem giftig, misschien ook appart zetten?"
+Natriumnitriet,Plank N,s,5g,1.0,,\.=,False,False,,,,False,,"GHS ontbreekt, zit in een plastic reageerbuisje. (aangepast)"
+di-natriumwaterstoffosfaat dihydraat,Plank N,s,15g,1.0,0.995,,True,False,D-N002,AppliChem,"A3567,1000",False,,
+Nikkelsulfaat*6H2O,Plank N,s,100g,1.0,,)(.,False,False,D-N026,,,False,,
+Natriumcitraat-2-hydraat,Plank N,s,100g,2.0,,,False,False,D-N010,,,False,,
+Natriumperchloraat,Plank N,s,100g,1.0,0.98,()=,True,False,,Acros organics,A0422398,False,,
+Natriumdiethylbanbituraat,,,,,,,False,False,,,,False,,
+di-natriumtaraat,Plank N,s,5g,1.0,,,False,False,D-N001,,,False,,
+tetra-natriumpyrofosfaat decahydraat,plank N,s,150g,1.0,0.995,(,True,False,D-N019,Fluka analytical,404414/1 60300,False,,
+Nikkel poeder,Plank N,s,75g,1.0,,().,False,False,D-N025,,,False,,
+Natriumsulfiet,Plank N,s,20g,1.0,,(,False,False,,,,False,,
+Alpha-D-Methylglucoside,Plank M,s,50g,1.0,0.99,,True,False,D-M006,Acros organics,A015585001,False,,"Stond bij N, naar M verplaatst "
+Natrium metasilicaat,Plank N,s,20g,1.0,,-(,True,False,,Sigma-Aldrich,STBD2436V,False,,
+Na-diethylbanbituraat,Plank N,s,20g,1.0,,,False,False,D-N004,,,False,,
+Natriumlaurylsulfaat ( natriumdodecylsulfaat),Plank N,s,5g,1.0,,(>-,False,False,D-N015,,,False,,
+Dimethylglyoxim,Plank M,s,200g,1.0,,(,False,False,D-M009,,,False,,"Stond bij N, naar M verplaatst "
+Natriummetaperiodate,Plank N,at,10g,1.0,0.998,)-.=,True,False,D-N16,Merck,K20316997,False,,
+Natriumdodecylsulfaat,Plank N,s,900g,1.0,0.9,(->,True,False,D-N012,Riedel-de Haën,30500,False,,Aantal GHS symbolen ontbreken op etiket
+Nutrient broth,Plank N,s,400g,2.0,,,True,False,,Oxoid,CM0001,False,,"een pot mist een dop, afgedekt met aluminiumfolie"
+Natriumnitriet,Plank N,s,5g,1.0,,,False,False,,,,False,,
+Nutrient broth,Plank N,s,500g,1.0,,,True,False,,Sigma-Aldrich,,False,,
+Natriumpyrofosfaat tetrabasic,Plank N,s,500g,1.0,0.95,(-,True,False,D-N018,Sigma-Aldrich,SLBS9268,False,,
+Natriumnitriet,Plank N,s,250g,1.0,,O\.,False,False,D-N017,,,False,,
+Natriumhydroxide,Plank N,s,250g,2.0,,-,False,False,D-N013,,,False,,
+Natriumjodide,Plank N,l,30ml,1.0,,(.),False,False,D-N014,,,False,,GHS etiketering niet compleet (aangepast)
+Natriumchloride,Plank N,s,25g,1.0,,,False,False,1N101/SV202,,,False,,Vaag pottie
+2'-Nitroacetanilide,Plank N,s,25g,1.0,,(,False,False,,Sigma-Aldrich,S7690079 208,False,,
+"Natriumsulfaat, anhydrous",Plank N,s,500g,1.0,,,False,False,D-N021,,,False,,
+Natriumacetaat,Plank N,s,10g,1.0,,,False,False,D-N005,,,False,,
+Natriumcarbonaat,Plank N,s,150g,2.0,,(,False,False,D-N007,,,False,,
+4'-nitroacetanilide,Plank N,s,20g,2.0,,(,True,False,,Sigma-Aldrich,S8546880 419,False,,
+Natriumthiosulfaat-pentahydraat,Plank N,s,2500g,1.0,0.995,(,True,False,D-N023,Merch,K00353013,False,,
+Natriumchloride,Plank N,s,150g,1.0,,,True,False,D-N009,VWR Chemicals,27810295,False,,
+natriumchloride,Plank N,s,100g,1.0,0.995,,True,False,,Fluka analytical,1266100,False,,
+dinatriumwaterstoffosfaat dihydraat,Plank N,s,1000g,2.0,0.99,,True,False,D-N002,Fluka analytical,1211155,False,,
+Natriumwaterstofcarbonaat,Plank N,s,300g,1.0,0.99,(,True,False,D-N024,Fluka analytical,71630,False,,
+Resorcinol,Plank R,s,<1g,1.0,0.99,(.),True,False,D-R001,Sigma-Aldrich,101378863,False,,Stond op plank n. GHS niet compleet (aangepast)
+Natriumsalicylaat,Plank N,s,10g,1.0,0.995,(),True,False,,Merck,6601.025,False,,
+Natriumdiwaterstoffosfaat monohydraat,Plank N,s,800g,1.0,0.99,,True,False,D-N011,Fluka analytical,,False,,
+"Natriumsulfaat, anhydrous",Plank N,s,40g,1.0,,,False,False,D-N021,,,False,,
+dinatriumwaterstoffosfaat anhydride,Plank N,s,500g,1.0,0.995,,False,False,D-N003,Fluka analytical,71639,False,,
+Natriumlaurylsulfaat (natriumdodecylsulfaat),Plank N,s,200g,1.0,,(->,False,False,D-N015,,,False,,GHS etiketering klopt niet (aangepast)
+Natriumchloride,Plank N,s,0g,1.0,,,False,False,D-N009,,,False,,Flesje leeg
+Natriumcarbonaat-10-hydraat,Plank N,s,200g,1.0,0.99,(,True,False,D-N008,Lamers-Pleuger,1031A,False,,
+Natriumacetaat,Plank N,s,100g,1.0,,,True,False,D-N006,Sigma-Aldrich,29H0028,False,,
+Kaliumwaterstofftalaat,Plank K,s,500g,1.0,0.99,,True,False,,Sigma-Aldrich,60k1930,False,,"stond bij R, verplaatst naar K"
+Natriumcarbonaat anhydrous,Plank N,s,1000g,1.0,,(,True,False,D-N007,Acros organics,A011087301,False,,
+Nutrient agar,Plank N,s,300g,2.0,,,True,False,1N123,Oxoid,,False,,
+Regeneration buffer (Sodium thiocyanate),Plank O/P/Q/R,s,200g,1.0,,(,True,False,A081,Bio-Rad,,False,,Veroorzaakt zeer giftig gas bij contact met zuren
+Oxidase Reagent,Plank O/P/Q/R,s,<1g,1.0,,,True,False,,bioMérieux,11058A,False,,Zit in een heel kleine capsule. Makkelijk om kwijt te raken.
+Oxaalzuur,Plank O/P/Q/R,s,150g,1.0,99.5%,(-,True,False,D-0002,boom,301 A746295,False,,
+(-)-Riboflavin,Plank O/P/Q/R,s,5g,1.0,,,True,False,,Sigma-Aldrich,WXBC1766V,False,,
+(-)-Quinine,Plank O/P/Q/R,s,3g,1.0,,),True,False,IK107,Merck,S7573404918,False,,
+TWEEN 20,Plank O/P/Q/R,l,35ml,1.0,,,True,False,N-P003,Sigma-Aldrich,029K01851,False,,
+Polymyxin B sulfaat (zout),Plank O/P/Q/R,s,<1g,1.0,,(,True,False,D-P001,Sigma-Aldrich,1348744,False,,
+Certistain Orcein,Plank O/P/Q/R,s,5g,1.0,,,True,False,,Merck,FN1141900,False,,
+Rabbit Application Buffer,Plank O/P/Q/R,s,3g,1.0,,,True,False,A080,bio-rad,L9701171,False,,
+Sephacryl,Plank S,l,20g,1.0,,>,False,False,D-S003,,,False,,GHS etiketering ontbreekt + andere informatie op het label. (aangepast)
+Salicylzuur ,CMR Bak,s,800 g,1.0,,-)(,True,False,15005,Sigma-Aldrich,K51298831,True,,
+Glaswol (Silicadioxide),CMR Bak,s,20 g,1.0,,),False,False,SP1-P2,,,True,,
+Sulfanilzuur,Plank S,s,60g,2.0,0.99,(,True,False,,Sigma-Aldrich,BCCD7689,False,,
+Sephadex G25,Plank S,l,20 ml,1.0,,,False,False,D-S006,,,False,,
+DEAE Sephadex,Plank S,s,50g,1.0,,,True,False,D-S004,Sigma-Aldrich,,False,,
+Silica,Plank S,s,30g,1.0,,,True,False,D-S007,Sigma-Aldrich,28H0087,False,,
+Sephadex G10,Plank S,s,100g,1.0,,,False,False,D-S005,,,False,,
+Titanium dioxide,Plank T,s,100g,1.0,,,False,False,,,,False,,Extra zakje omheen
+l-Tyrosin,Plank T,s,25g,1.0,0.99,(,True,False,D-T007,Merck,8537057,False,,
+Trizma base,Plank T,s,200g,1.0,0.999,,True,False,D-T004,Sigma-Aldrich,SLBP4240V,False,,
+Polyoxyethylenesorbitan monooleate (tween 80),Plank P,l,500ml,1.0,,,True,False,D-P002,Sigma-Aldrich,120K0021,False,,"Stond op plank T, verplaatst naar plank P"
+Triton X-100 (alkylaryl polyether alcohol),Plank T,l,150ml,1.0,,,True,False,D-T006,Baker analyzed,9422720002,False,,
+Trioctylamine,Plank T,l,25ml,1.0,0.98,(,True,False,D-T003,Sigma-Aldrich,MKBV2484V,False,,
+Tris-Glycine-SDS,Plank T,s,3g,3.0,,(,True,False,,Cleaver Scientific,IJ50402,False,,3 zakjes
+Tween 20,Plank T,l,200ml,1.0,,(,True,False,D-P003,Riedel-de Haën,63158,False,,
+Thymolblauw,Plank T,s,<1g,4.0,,(,False,False,D-T001,,,False,,
+Vanillin,Plank U/V,s,500g,2.0,,(,True,False,,Sigma-Aldrich,S7699318047,False,,
+Vitamin B12 (Cyanocobalamin),Plank U/V,s,<1g,1.0,,),True,False,,Merck,K44589792407,False,,
+Ureum,Plank U/V,s,200g,1.0,,,False,False,,,,False,,
+Gistextractagar,Plank W/X/Y,s,300g,1.0,,,True,False,1G031,Merck,VM756950638,False,,
+Xylenol orange tetrasodium salt,Plank W/X/Y,s,20g,1.0,,,True,False,DX001,Baker analyzed,V15609,False,,
+Zinksulfaat-7-hydraat,Plank Z,s,1000g,1.0,0.99,(.-,True,False,D-Z002,Lamers-Pleuger,1206B,False,,
+Zilvernitraat,Plank Z,s,100g,1.0,,.-=,True,False,D-Z001,VWR Chemicals,16J174144,False,,
+Kaliumpermanganaat,CMR Bak,s,700g,1.0,0.99,(=.\-,True,False,D-K012,Sigma-Aldrich,38H0573,True,,Stond los in de kast. Verplaatst naar CMR-bak. GHS etiketering niet compleet. (aangepast)
+Norit A,Plank N,s,1000g,1.0,,,True,False,,omnilabo,A016468801,False,,Stond los in de kast.
+Actieve kool,Plank A,s,500g,1.0,,,True,False,,Sigma-Aldrich,242276-250g,False,,Stond los in de kast.
+tert-Butyldimethylsilylchloride,Plank B,s,<1g,2.0,0.97,.>-,True,False,,Sigma-Aldrich,190500-25G,False,,Stond los in de kast.
+"1, 2-Butanediol",Plank B,l,200ml,1.0,0.98,(,True,False,,Sigma-Aldrich,177652-250g,False,,Stond los in de kast.
+Octaanzuur,Plank O/P/Q/R,l,450ml,5.0,0.99,-,True,False,,,,False,,
+"1-fenyl-1,2-ethaandiol",Plank F,s,1g,1.0,0.97,,True,False,,Sigma-Aldrich,WXBF3282V,False,,
+n-Heptane,Plofkast,l,5L,1.0,0.998,)(>.,True,False,1H007,VWR Chemicals,UN1206,False,,
+Azijnzuuranhydride,Plofkast,l,1L,1.0,0.99,>-(,True,False,1A077,VWR Chemicals,21E264007,False,,
+Azijnzuur,Plofkast,l,"2,5L",2.0,99-100%,>-,True,False,1A075,Sigma-Aldrich,K54113455 206,False,,
+Tolueen,Plofkast,l,1l,3.0,0.998,>(),True,False,,Sigma-Aldrich,I1310778 343,True,,
+n-decaan,Plofkast,l,10ml,1.0,,>),True,False,,,,False,,
+n-nonaan,Plofkast,l,100ml,1.0,,>().,True,False,,Sigma-Aldrich,S8419838 334,False,,
+n-dodecaan,plofkast,l,100ml,1.0,,),True,False,,Sigma-Aldrich,S8328843 319,False,,
+Aceton,Plofkast,l,5l,1.0,0.99,>(,True,False,1A004,VWR Chemicals,25A234017,False,,
+,,,,,,,False,False,,,,False,,
+"1,3 PDO 100%",Plofkast,l,10ml,1.0,,,False,False,,,,False,,"Simpel monsterpotje met vloeistof, identificatie nodig."
+Diethyl ether,Plofkast,l,1l,1.0,1,>(,True,False,1D017,VWR Chemicals,22I144114,False,,
+Cyclohexaan,Plofkast,l,10l,2.0,0.995,>.(),True,False,IC066,VWR Chemicals,17Z0845,False,,
+Petroleumether,Plofkast,l,"2,5l",1.0,,.>)(,True,False,IP014,VWR Chemicals,24I174002,False,,
+2-propanol,Plofkast,l,2l,2.0,0.999,>(,True,False,IP024,VWR Chemicals,15D070505,False,,
+Folin en Ciocalteau's fenol reagent,Plofkast,l,1l,2.0,,(-,True,False,,MP,Q3479,False,,
+Chloroform,Plofkast,l,1L,1.0,0.992,\),True,False,IC039,VWR Chemicals,17J104022,True,,
+Fenolftaleïne,Plofkast,l,1L,1.0,,>),False,False,1-F-005,,,True,,
+Xylene (mengsel van isomeren),Plofkast,l,1l,1.0,0.992,()>,True,False,,VWR Chemicals,20I114010,True,,
+Petroleum ether uit Rotavaror,Plofkast,l,1l,1.0,,>(),False,True,,,,False,,"Etiket niet volledig, geen GHS!(aangepast)"
+Fenolftaleïne oplossing in eOH:Water,Plofkast,l,50ml,1.0,,>(),True,False,D-F001,Sigma-Aldrich,STBJ5862,True,,
+"1,6-diaminohexaan",plofkast,s,100g,1.0,0.98,(-,True,False,,alfa aesar,10198935,False,,
+Adipoly chloride,plofkast,s,25g,1.0,0.98,-,True,False,,alfa aesar,10203054,False,,Verpakking = extreem roestig blik!
+May-grünwald's eosine-methylene blue solution mod.,plofkast,l,200ml,2.0,,>\),True,False,1M030,Merck,HX277596,False,,
+Methanesulfonyl chloride,plofkast,l,,1.0,0.997,\-,True,False,,Sigma-Aldrich,1003640248,False,,
+1-propanol,plofkast,l,300ml,1.0,,>,False,False,,,,False,,
+Briljant blue R,plofkast,s,50g,1.0,,(,True,False,IB075,janssen chimica,67588/1,False,,
+"Jodium, kristallen",Plofkast,s,50g,1.0,,().,True,False,IJ002,Merck,B1044161 511,True,,
+1-hexanol,plofkast,l,10ml,1.0,,>(,False,False,,,,False,,Etiket nodig + GHS! (aangepast)
+Giemsa's stain solution,plofkast,l,50ml,2.0,,>\,True,False,1G005,BDH,,True,,
+"2,2,2-Trifluoroethanol",Plofkast,l,20ml,1.0,0.99,>\-,True,False,,Sigma-Aldrich,STBF7325V,False,,
+o-xyleen,plofkast,l,100ml,1.0,0.99,>(,True,False,,alfa aesar,61200181,True,,
+Boortrifluoride,plofkast,l,700ml,1.0,0.2,\>,True,False,1B029,VWR Chemicals,11G070521,False,,
+3-methyl-1-butanol,plofkast,l,500ml,1.0,0.99,>-(,True,False,,Sigma-Aldrich,SHBP1176,False,,
+"N,N-dimethylaniline",plofkast,l,8ml,2.0,,\).,True,False,,Sigma-Aldrich,SHBG9958V,False,,
+Van kampen-Zuylen reagens (bevat KCN),plofkast,l,1L,1.0,,\(),False,True,,,,False,,Etiket + GHS nodig! (aangepast)
+Loopvloeistof (Petroleumether:Aceton),plofkast,l,1L,1.0,0.928,,False,True,,,,False,,Etiket + GHS nodig!
+Piperidine,plofkast,l,,1.0,0.995,>-\,True,False,,Sigma-Aldrich,SHBM2123,False,,
+Hanus solution,plofkast,l,300ml,1.0,,>-,True,False,,Fluka analytical,BCBR2411V,False,,
+Butylamine,Plofkast,l,1l,1.0,,>\-,True,False,,Sigma-Aldrich,S8000239 049,False,,
+Afval heptaan (proef PS401),plofkast,l,2l,1.0,,)(>.,False,True,,,,False,,Etiket + ghs nodig! (aangepast)
+"1,4-Dithio-DL-trheitol(DTT)",Koelkast,s,3g,1.0,0.995,,True,False,A02J002K,Applichem,"A1101,0005",False,,
+Albumin fraction V,Koelkast,s,100g,1.0,,,True,False,,Merck,K50258118829,False,,
+Anti-lgG,Koelkast,l,2 ml,1.0,,,True,False,,orthoclinical diagnostics,IG165EX,False,,
+ORTHO coombs control,Koelkast,l,3ml,1.0,,,True,False,,orthoclinical diagnostics,K771,False,,
+"Anti-A,B bioclone",Koelkast,l,63ml,8.0,,,True,False,,orthoclinical diagnostics,ABB693AX,False,,
+Amyloglucosidase from Aspergillus niger,Koelkast,l,50ml,1.0,,,True,False,,Sigma-Aldrich,A7095-50ml,False,,
+Anti-A bioclone,Koelkast,l,6ml,1.0,,,True,False,,orthoclinical diagnostics,BAA592AX,False,,
+α-Amylase from Bacillus licheniformis,Koelkast,l,50ml,2.0,,),True,False,,Sigma-Aldrich,SLBP7885V,False,,
+Rhesus reagent control bioclone,Koelkast,l,30ml,3.0,,,True,False,,orthoclinical diagnostics,7567,False,,
+Cellulase from Trichodema,Koelkast,l,50ml,1.0,,),True,False,,Sigma-Aldrich,SLBP6225V,False,,
+Cholecalciferol (D3),Koelkast,s,20mg,1.0,,)\,True,False,,supelco,47763,False,,
+N-Hydroxysuccinimid,Koelkast,s,13g,1.0,,,True,False,A02H00711,Merck,"8,04518,0025",False,,
+Chloroform-D1 (gedeutereerd),Koelkast,l,100ml,1.0,,)\,True,False,,Sigma-Aldrich,S5839050225,True,,voor NMR
+Harnstoff-wasserstoffperoxid,Koelkast,s,500g,1.0,,=-,True,False,A1076,Roth,73191171,False,,
+Acryllamide/bis-acrylamide ,Koelkast,l,1250ml,13.0,0.3,\),True,False,,Sigma-Aldrich,SLBC2630V,True,,
+Waterstofperoxide 35%,Koelkast,l,1L,1.0,0.35,-(,True,False,,Merck,K54894800,False,,
+"N,N'-dicyclohexyl-carbodiimide",Koelkast,s,50g,1.0,0.99,-,True,False,,Fluka analytical,36650,False,,
+Acrylamide,Koelkast,s,100g,1.0,0.99,\,True,False,A031012,Sigma-Aldrich,013K0150,True,,
+Styreen,Koelkast,l,1L,2.0,0.99,()>,True,False,,Sigma-Aldrich,STBG3353V,True,,
+Isoamyl acetaat,Koelkast,l,1l,1.0,,>,True,False,,Sigma-Aldrich,W205508-1KG-K,False,,
+1-naphthylamine,Koelkast,s,12g,1.0,0.99,)(.,True,False,,Sigma-Aldrich,WXBC4924V,False,,
+N-hydroxysuccinimide,Koelkast,s,25g,1.0,,,True,False,,Sigma-Aldrich,74H7705,False,,
+Curcumin,Vriezer,s,50g,1.0,,,True,False,,Sigma-Aldrich,SHBL0796,False,,
+β-Nicotinamide acetaat,Koelkast,g,1g,1.0,0.965,,True,False,,Sigma-Aldrich,,False,,
