@@ -7,6 +7,7 @@ from tkinter import simpledialog
 
 
 chemdata = pd.read_csv('csv/inventarisatie_DC_X.csv')
+#pop up voor opdracht keuze
 def popup_assignment_select():
     root = tk.Tk()
     root.title("Opdracht selecteren")
@@ -56,6 +57,7 @@ def popup_assignment_select():
     return keuze.get()
 
 opdracht = popup_assignment_select()
+
 #opdracht 2
 if opdracht == "2":
     plank_k = chemdata[chemdata['Locatie'] == 'Plank K']
@@ -65,16 +67,16 @@ if opdracht == "2":
 elif opdracht == "3":
     chemdata['Locatie'] = chemdata['Locatie'].str.title() #fixt dubbel N plank, alles is nu hoofdletter :)
 
-    aantal_per_plank = chemdata['Locatie'].value_counts()
+    aantal_per_plank = chemdata['Locatie'].value_counts() #tel aantal punten per plank
 
     def plank_sort_key(x: str):
-        parts = str(x).split()
-        return parts[1] if len(parts) > 1 else str(x)
+        parts = str(x).split() #convert alles naar string, split op spaties (voor alfabetishe volgorde)
+        return parts[1] if len(parts) > 1 else str(x) #negeer het eerste woord als er 2 woorden zijn, geef het eerste woord als t er maar 1 is.
 
     aantal_per_plank = aantal_per_plank.sort_index(key=lambda idx: idx.map(plank_sort_key)) # zet de planken op volgorde
 
     plt.figure(figsize=(10, 5))
-    ax = aantal_per_plank.plot(kind='bar')
+    ax = aantal_per_plank.plot(kind='bar') #maak die grafiek
 
     ax.set_xlabel("Plank")
     ax.set_ylabel("Aantal potjes")
@@ -101,10 +103,11 @@ elif opdracht == "4":
 }
 
     def decode_ghs_symbols(symbol_str: str):
-        """Zet een string zoals '().\\=' om naar een lijst GHS codes."""
+        #zet de leestekens gebruikt in excel om naar ghs symbolen
         if pd.isna(symbol_str) or symbol_str == "-" or symbol_str.strip() == "":
             return []
 
+        #maak een lege lijst, voeg het ghs symbool toe die nodig is als hij nog niet in de lijst staat
         codes = []
         for ch in str(symbol_str):
             if ch in ("=", " "):
@@ -115,7 +118,7 @@ elif opdracht == "4":
         return codes
 
     def show_ghs_icons(ghs_codes, icons_folder="ghs"):
-        """Toon GHS icons naast elkaar met matplotlib."""
+        #zet de ghs symbolen naast elkaar in matplotlib
         if not ghs_codes:
             print("Geen GHS-symbolen gevonden voor deze stof.")
             return
@@ -139,7 +142,7 @@ elif opdracht == "4":
         plt.show()
 
     def zoek_stof_en_toon_ghs(chemdata: pd.DataFrame, query: str, icons_folder="ghs"):
-        """Zoek op (deel van) Naam stof en toon GHS symbolen."""
+        #zoek de naam van de stof en laat ghs zien
         hits = chemdata[chemdata["Naam stof"].str.contains(query, case=False, na=False)]
 
         if hits.empty:
@@ -166,7 +169,7 @@ elif opdracht == "4":
 
     def popup_input(prompt):
         root = tk.Tk()
-        root.withdraw()  # hide the empty root window
+        root.withdraw() 
         answer = simpledialog.askstring("Zoek stof", prompt)
         root.destroy()
         return answer
