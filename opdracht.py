@@ -2,11 +2,60 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import tkinter as tk
+from tkinter import simpledialog
+
 
 chemdata = pd.read_csv('csv/inventarisatie_DC_X.csv')
-opdracht = input("Welke opdracht wil je uitvoeren? (Voer 2, 3, 4 of 5 in): ")
+def popup_assignment_select():
+    root = tk.Tk()
+    root.title("Opdracht selecteren")
 
+    keuze = tk.StringVar(value="")
 
+    def select(value):
+        keuze.set(value)
+        root.destroy()
+
+    tk.Label(
+        root,
+        text="Welke opdracht wil je uitvoeren?",
+        padx=20,
+        pady=10
+    ).pack()
+
+    tk.Button(
+        root,
+        text="Opdracht 2 – Chemicaliën op plank K",
+        width=40,
+        command=lambda: select("2")
+    ).pack(pady=4)
+
+    tk.Button(
+        root,
+        text="Opdracht 3 – Aantal potjes per plank",
+        width=40,
+        command=lambda: select("3")
+    ).pack(pady=4)
+
+    tk.Button(
+        root,
+        text="Opdracht 4 – Zoek stof + GHS symbolen",
+        width=40,
+        command=lambda: select("4")
+    ).pack(pady=4)
+
+    tk.Button(
+        root,
+        text="Opdracht 5 – Aantal vloeistoffen",
+        width=40,
+        command=lambda: select("5")
+    ).pack(pady=4)
+
+    root.mainloop()
+    return keuze.get()
+
+opdracht = popup_assignment_select()
 #opdracht 2
 if opdracht == "2":
     plank_k = chemdata[chemdata['Locatie'] == 'Plank K']
@@ -22,7 +71,7 @@ elif opdracht == "3":
         parts = str(x).split()
         return parts[1] if len(parts) > 1 else str(x)
 
-    aantal_per_plank = aantal_per_plank.sort_index(key=lambda idx: idx.map(plank_sort_key))
+    aantal_per_plank = aantal_per_plank.sort_index(key=lambda idx: idx.map(plank_sort_key)) # zet de planken op volgorde
 
     plt.figure(figsize=(10, 5))
     ax = aantal_per_plank.plot(kind='bar')
@@ -115,8 +164,19 @@ elif opdracht == "4":
 
         show_ghs_icons(ghs_codes, icons_folder=icons_folder)
 
-    zoekterm = input("Welke stof wil je opzoeken? ")
-    zoek_stof_en_toon_ghs(chemdata, zoekterm, icons_folder="ghs")
+    def popup_input(prompt):
+        root = tk.Tk()
+        root.withdraw()  # hide the empty root window
+        answer = simpledialog.askstring("Zoek stof", prompt)
+        root.destroy()
+        return answer
+
+    zoekterm = popup_input("Welke stof wil je opzoeken?")
+    if zoekterm:
+        zoek_stof_en_toon_ghs(chemdata, zoekterm, icons_folder="ghs")
+    else:
+        print("Geen invoer gegeven.")
+
 
 #opdracht 5
 elif opdracht == "5":
