@@ -2,13 +2,22 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-import tkinter as tk
-from tkinter import simpledialog
+
+def running_in_jupyter():
+    try:
+        from IPython import get_ipython
+        return get_ipython() is not None
+    except ImportError:
+        return False
+
 
 
 chemdata = pd.read_csv('csv/inventarisatie_DC_X.csv')
 #pop up voor opdracht keuze
 def popup_assignment_select():
+    import tkinter as tk
+    from tkinter import simpledialog
+
     root = tk.Tk()
     root.title("Opdracht selecteren")
 
@@ -56,16 +65,21 @@ def popup_assignment_select():
     root.mainloop()
     return keuze.get()
 
-opdracht = popup_assignment_select()
+if running_in_jupyter():
+    print("Running in Jupyter Notebook")
+    opdracht = input("Kies opdracht (2, 3, 4, of 5): ")
+else:
+    opdracht = popup_assignment_select()
+
 
 #opdracht 2
 if opdracht == "2":
-    plank_k = chemdata[chemdata['Locatie'] == 'Plank K']
+    plank_k = chemdata[chemdata['Locatie'].str.strip().str.title() == 'Plank K']
     print(plank_k)
 
 #opdracht 3
 elif opdracht == "3":
-    chemdata['Locatie'] = chemdata['Locatie'].str.title() #fixt dubbel N plank, alles is nu hoofdletter :)
+    chemdata['Locatie'] = chemdata['Locatie'].str.strip().str.title() #Fixt hoofdlettergevoeligheid en eventuele extra spaties :)
 
     aantal_per_plank = chemdata['Locatie'].value_counts() #tel aantal punten per plank
 
@@ -168,13 +182,20 @@ elif opdracht == "4":
         show_ghs_icons(ghs_codes, icons_folder=icons_folder)
 
     def popup_input(prompt):
+        import tkinter as tk
+        from tkinter import simpledialog
+
         root = tk.Tk()
         root.withdraw() 
         answer = simpledialog.askstring("Zoek stof", prompt)
         root.destroy()
         return answer
 
-    zoekterm = popup_input("Welke stof wil je opzoeken?")
+    if running_in_jupyter():
+        zoekterm = input("Welke stof wil je opzoeken? ")
+    else:
+        zoekterm = popup_input("Welke stof wil je opzoeken?")
+
     if zoekterm:
         zoek_stof_en_toon_ghs(chemdata, zoekterm, icons_folder="ghs")
     else:
