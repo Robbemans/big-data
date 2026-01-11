@@ -88,7 +88,7 @@ elif opdracht == "3":
     plt.tight_layout()
     plt.show()
 
-#opdracht 4
+#opdracht 4 --> probeer bijvoorbeeld salicylzuur
 elif opdracht == "4":
     CHAR_TO_GHS = {
     "<": "GHS01",  # explosief
