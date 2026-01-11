@@ -2,6 +2,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+from pathlib import Path
+import sys
 
 def running_in_jupyter():
     try:
@@ -10,9 +12,15 @@ def running_in_jupyter():
     except ImportError:
         return False
 
+if running_in_jupyter():
+    print("Dit programma werkt lekker niet in jupyter, gebruik ALSJEBLIEFT visual studio code :p")
+    sys.exit()
 
+BASE_DIR = Path.cwd() if running_in_jupyter() else Path(__file__).resolve().parent
+CSV_PATH = BASE_DIR / "csv" / "inventarisatie_DC_X.csv"
+GHS_DIR = BASE_DIR / "ghs"
 
-chemdata = pd.read_csv('csv/inventarisatie_DC_X.csv')
+chemdata = pd.read_csv(CSV_PATH)
 #pop up voor opdracht keuze
 def popup_assignment_select():
     import tkinter as tk
@@ -131,7 +139,7 @@ elif opdracht == "4":
                 codes.append(code)
         return codes
 
-    def show_ghs_icons(ghs_codes, icons_folder="ghs"):
+    def show_ghs_icons(ghs_codes, icons_folder=GHS_DIR):
         #zet de ghs symbolen naast elkaar in matplotlib
         if not ghs_codes:
             print("Geen GHS-symbolen gevonden voor deze stof.")
@@ -143,19 +151,20 @@ elif opdracht == "4":
             axes = [axes]
 
         for ax, code in zip(axes, ghs_codes):
-            img_path = os.path.join(icons_folder, f"{code}.png")
-            if not os.path.exists(img_path):
+            img_path = Path(icons_folder) / f"{code}.png"
+            if not img_path.exists():
                 ax.text(0.5, 0.5, f"{code}\n(niet gevonden)", ha="center", va="center")
             else:
-                img = plt.imread(img_path)
+                img = plt.imread(str(img_path))
                 ax.imshow(img)
-            ax.axis("off")
-            ax.set_title(code, fontsize=9)
+
+                ax.axis("off")
+                ax.set_title(code, fontsize=9)
 
         plt.tight_layout()
         plt.show()
 
-    def zoek_stof_en_toon_ghs(chemdata: pd.DataFrame, query: str, icons_folder="ghs"):
+    def zoek_stof_en_toon_ghs(chemdata: pd.DataFrame, query: str, icons_folder=GHS_DIR):
         #zoek de naam van de stof en laat ghs zien
         hits = chemdata[chemdata["Naam stof"].str.contains(query, case=False, na=False)]
 
@@ -197,7 +206,7 @@ elif opdracht == "4":
         zoekterm = popup_input("Welke stof wil je opzoeken?")
 
     if zoekterm:
-        zoek_stof_en_toon_ghs(chemdata, zoekterm, icons_folder="ghs")
+        zoek_stof_en_toon_ghs(chemdata, zoekterm, icons_folder=GHS_DIR)
     else:
         print("Geen invoer gegeven.")
 
