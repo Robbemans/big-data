@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 import sys
+from collections import Counter
 
 def running_in_jupyter():
     try:
@@ -110,6 +111,7 @@ elif opdracht == "3":
     plt.show()
 
 #opdracht 4 --> probeer bijvoorbeeld salicylzuur
+#(A)
 elif opdracht == "4":
     CHAR_TO_GHS = {
     "<": "GHS01",  # explosief
@@ -117,7 +119,7 @@ elif opdracht == "4":
     "O": "GHS03",  # oxiderend
     "/": "GHS04",  # gas onder druk
     "-": "GHS05",  # corrosief
-    "\\": "GHS06", # toxisch (skull)
+    "\\": "GHS06", # toxisch
     "(": "GHS07",  # irritatie/waarschuwing
     ")": "GHS08",  # gezondheidsgevaar
     ".": "GHS09",  # milieu
@@ -208,7 +210,26 @@ elif opdracht == "4":
         zoek_stof_en_toon_ghs(chemdata, zoekterm, icons_folder=GHS_DIR)
     else:
         print("Geen invoer gegeven.")
+#(B)
+    def meest_voorkomend(chemdata: pd.DataFrame):
+        counter = Counter()
 
+        for sym in chemdata["GHS-symbolen"]:
+            codes = decode_ghs_symbols(sym)
+            counter.update(codes)
+
+        if not counter:
+            print("Geen GHS-symbolen gevonden in de dataset.")
+            return
+
+        meest_voorkomend, aantal = counter.most_common(1)[0]
+
+        print("Overzicht GHS-symbolen:")
+        for ghs, count in counter.most_common():
+            print(f"{ghs}: {count} keer")
+
+        print(f"\nMeest voorkomende GHS-symbool: {meest_voorkomend} ({aantal} keer)")
+    meest_voorkomend(chemdata)
 
 #opdracht 5
 elif opdracht == "5":
